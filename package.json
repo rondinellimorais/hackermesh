@@ -1,0 +1,14 @@
+{
+  "name": "HackerMesh",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chromedriver": "^76.0.1",
+    "express": "4.14.0",
+    "json-stringify-safe": "^5.0.1",
+    "minimist": "^1.2.0",
+    "node.extend": "^1.1.6",
+    "selenium-webdriver": "3.0.1"
+  }
+}
