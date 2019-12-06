@@ -13,6 +13,7 @@ O projeto é feito em **NodeJS** utilizando o **Selenium-WebDriver** para automa
 | [express](http://expressjs.com/)                                                          | v4.14.0       |
 | [selenium-webdriver](http://seleniumhq.github.io/selenium/docs/api/javascript/index.html) | v3.0.1        |
 | [node.extend](https://www.npmjs.com/package/node.extend) 				    				| v1.1.6        |
+| [chromedriver](https://www.npmjs.com/package/chromedriver) 				    				| -        |
 | [json-stringify-safe](https://github.com/isaacs/json-stringify-safe) 			    		| v5.0.1 	    |
 | [body-parser](https://www.npmjs.com/package/body-parser) 			    		| v1.15.2 	    |
 
