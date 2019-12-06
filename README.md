@@ -16,15 +16,21 @@ O projeto é feito em **NodeJS** utilizando o **Selenium-WebDriver** para automa
 | [json-stringify-safe](https://github.com/isaacs/json-stringify-safe) 			    		| v5.0.1 	    |
 | [body-parser](https://www.npmjs.com/package/body-parser) 			    		| v1.15.2 	    |
 
+## Setup
+Por default o crawler abre o navegador Google Chrome para começar a festa. Para a automatização do chrome funcionar é necessário instalar o driver, por isso siga os passos abaixo:
+
+1. Abra o Chrome da sua máquina e verifique a versão.
+2. Vá até o `package.json` e modifique a versão do drive `"chromedriver": "^76.0.1"`. Quando eu fiz minha versão de chrome era **76.xxx.xx**. Vá até o repo [chromedriver](https://www.npmjs.com/package/chromedriver) e coloque a versão correspondente.
+3. Só isso :)
+
 ## Install ##
 
 ```
 #!bash
-npm install --verbose
+npm i
 ```
 
 ## Start server ##
-
 
 ```
 #!bash
@@ -42,11 +48,3 @@ node index.js -l java8|cpp|python|bash
 #!bash
 node index.js -p [Port]
 ```
-
-## Instalar drive do Chrome
-1. Baixe em http://chromedriver.storage.googleapis.com/index.html
-2. Coloque em algum lugar o arquivo binário que está dentro do zip
-3. vim .bash_profile
-4. adicionei o caminho do diretório onde está o drive
-5. Enjoy :)
-
