@@ -5,6 +5,10 @@ Eu quero ser o melhor mas tenho preguiça, então eu fiz um crawler que testa os
 
 O projeto é feito em **NodeJS** utilizando o **Selenium-WebDriver** para automatizar a porra toda.
 
+<div>
+  <iframe width="560" height="315" src="https://youtu.be/PMV3mkCWq3k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 # Dependências #
 
 | Name                                   | Version       |
@@ -49,7 +53,3 @@ node index.js -l java8|cpp|python|bash
 #!bash
 node index.js -p [Port]
 ```
-
-<div>
-  <iframe width="560" height="315" src="https://youtu.be/PMV3mkCWq3k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
